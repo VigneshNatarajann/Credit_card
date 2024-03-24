@@ -3,7 +3,7 @@ use capstone
 #1. Group the customers based on their income type and find the average of their annual income.
 
 select Type_income, round(Avg(Annual_income),0) as Average_annual_income from credit_card 
-group by Type_income
+group by Type_income 
 
 #2. Find the female owners of cars and property.
 
